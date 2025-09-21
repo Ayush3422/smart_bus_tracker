@@ -1,0 +1,111 @@
+{
+  "timestamp": "2025-09-17T23:55:56.743810",
+  "passed_tests": 6,
+  "total_tests": 6,
+  "success_rate": 100.0,
+  "detailed_results": [
+    {
+      "test": "API Status",
+      "status": "PASS",
+      "model_loaded": true,
+      "features": 11
+    },
+    {
+      "test": "Real-time Buses",
+      "status": "PASS",
+      "buses_count": 654,
+      "avg_passengers": 29.81804281345566,
+      "prediction_range": "1-64"
+    },
+    {
+      "test": "ML Predictions",
+      "status": "PASS",
+      "routes_tested": 3,
+      "prediction_results": {
+        "RT001": {
+          "avg_prediction": 13.25,
+          "peak_avg": 123.16666666666667,
+          "model_used": "catboost"
+        },
+        "RT002": {
+          "avg_prediction": 13.25,
+          "peak_avg": 123.16666666666667,
+          "model_used": "catboost"
+        },
+        "RT003": {
+          "avg_prediction": 13.25,
+          "peak_avg": 123.16666666666667,
+          "model_used": "catboost"
+        }
+      }
+    },
+    {
+      "test": "Schedule Optimization",
+      "status": "PASS",
+      "routes_tested": 3,
+      "optimization_results": {
+        "RT001": {
+          "current_demand": 13,
+          "optimized_frequency": 25,
+          "improvement": 66.7
+        },
+        "RT002": {
+          "current_demand": 13,
+          "optimized_frequency": 25,
+          "improvement": 66.7
+        },
+        "RT003": {
+          "current_demand": 13,
+          "optimized_frequency": 25,
+          "improvement": 66.7
+        }
+      }
+    },
+    {
+      "test": "Analytics Dashboard",
+      "status": "PASS",
+      "hourly_data_points": 1,
+      "routes_analyzed": 3,
+      "active_buses": 6
+    },
+    {
+      "test": "Model Performance",
+      "status": "PASS",
+      "scenarios_tested": 5,
+      "consistency_range": 0,
+      "response_time": 2.1232144832611084,
+      "performance_results": [
+        {
+          "scenario": "Morning Peak Weekday",
+          "prediction": 123,
+          "is_peak": true,
+          "hour": 8
+        },
+        {
+          "scenario": "Afternoon Weekday",
+          "prediction": 58,
+          "is_peak": false,
+          "hour": 14
+        },
+        {
+          "scenario": "Evening Peak Weekday",
+          "prediction": 124,
+          "is_peak": true,
+          "hour": 18
+        },
+        {
+          "scenario": "Weekend Morning",
+          "prediction": 58,
+          "is_peak": false,
+          "hour": 10
+        },
+        {
+          "scenario": "Late Night Weekend",
+          "prediction": 14,
+          "is_peak": false,
+          "hour": 22
+        }
+      ]
+    }
+  ]
+}

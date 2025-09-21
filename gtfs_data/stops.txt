@@ -1,0 +1,11 @@
+stop_id,stop_name,stop_lat,stop_lon
+DTC_STOP_001,Red Fort,28.6562,77.241
+DTC_STOP_002,Connaught Place,28.6315,77.2167
+DTC_STOP_003,New Delhi Railway Station,28.6431,77.2197
+DTC_STOP_004,ISBT Kashmere Gate,28.6667,77.2167
+DTC_STOP_005,Nehru Place,28.5478,77.2536
+DTC_STOP_006,Dwarka Sector 21,28.5521,77.059
+DTC_STOP_007,Anand Vihar,28.6469,77.315
+DTC_STOP_008,Rohini Sector 18,28.7197,77.105
+DTC_STOP_009,Badarpur,28.4958,77.2982
+DTC_STOP_010,Central Secretariat,28.6139,77.209

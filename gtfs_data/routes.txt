@@ -1,0 +1,11 @@
+route_id,route_short_name,route_long_name,route_type
+DTC_01,1,Red Fort - ISBT Kashmere Gate,3
+DTC_34,34,Nehru Place - Dhaula Kuan,3
+DTC_52,52,Anand Vihar - Central Secretariat,3
+DTC_181,181,Mundka - New Delhi Railway Station,3
+DTC_269,269,Rohini Sec-18 - Sarai Kale Khan,3
+DTC_300,300,Dwarka Sec-21 - Connaught Place,3
+DTC_402,402,Badarpur - Red Fort,3
+DTC_505,505,Ghaziabad - ISBT Kashmere Gate,3
+DTC_615,615,Najafgarh - New Delhi Railway Station,3
+DTC_728,728,Yamuna Vihar - Connaught Place,3
